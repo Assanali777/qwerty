@@ -1,0 +1,231 @@
+body{
+background-color: rgb(215, 250, 215);
+}
+aside{
+width: 35%;
+float: right;
+background-color:antiquewhite ;
+height: 350px;}
+header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #f9f9f9;
+background-image: url(../img/167-key-to-healthy-lifestyle-of-professionals.jpg);
+padding: 20px;
+}
+header img {
+width: 50px;
+height: 50px;
+margin-right: 10px;
+}
+header h1 {
+color: black;
+margin: 0;
+}
+nav ul li a{
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+nav ul li:hover
+{
+background-color: green;
+}
+header
+{   
+padding: 10px;
+}
+
+#active
+{
+    border: 2px solid yellow;
+}
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+      
+nav li {
+        margin-right: 20px;
+}
+      
+nav a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+ }
+      
+ nav a:hover {
+   text-decoration: underline;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+}
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: palegoldenrod;
+    padding: 20px;
+    flex-direction: row; 
+}
+  
+  .flexexample {
+    flex: 1;
+    margin: 10px;
+    height: 110px;
+    background-color: white;
+    padding: 10px;
+}
+nav{
+   
+    padding: 10px;
+}
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li {
+    list-style-type: none;
+    background-color: rgb(70, 154, 93);
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: black;
+  }  
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  .card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+
+nav ul li a 
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav ul li:hover
+{
+    background-color: green;
+}
+
+header
+{
+   
+    padding: 10px;
+
+}
+
+#active
+{
+    border: 2px solid yellow;
+}
+
+article
+{
+    color: rgb(0, 0, 0);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h2
+{
+    color: rgb(9, 9, 9);
+}
+h3{
+    color:black
+}
+footer {
+    clear: both;
+    border: 1px solid;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+footer ul li {
+    list-style-type: none;
+    color: aliceblue;
+    display: inline;
+    padding: 15px;
+ 
+}
+footer ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    display: inline;
+
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+label {
+    float: left; width: 112px;
+    padding-right: 10px; text-align: right;
+}
+input {
+   margin-left: 1em;
+   margin-bottom: .5em; width: 220px;
+}
+#button, #reset {
+  margin-top: .5em; width: 8em;
+  background-color: orange;
+  border: 2px solid black;
+}
+input[type="checkbox"] {width: 15px;}
+#button {margin-left: 138px;}
+#reset {margin-left: 82px;}
+input[type="radio"] {width: 10px;}
+.required {
+  font-weight:bold;
+  color: red; 
+}
+body {
+    font-family: sans-serif;
+    background-image: url(../img/Medical\ background4590.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+  }
+main{
+margin: 15px 150px;
+padding: 20px; border: black solid 1px;
+background: white;
+min-height: 500px;}
+header p{ position: relative;
+    top: 40%;
+    font-style: italic;
+    text-align: center;}
+    ul { list-style: none;}
+    li{ display: inline-block;}
+    footer a{text-decoration: none}
